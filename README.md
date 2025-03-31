@@ -10,7 +10,7 @@ This repository contains the implementation for the Shopstr Escrow Competency Te
 - Payment processing
 - Create and spend from a HODL invoice
 
-## Installation
+## Installation and Usage
 1. Clone this repository:
    ```sh
    git clone https://github.com/drstrox/shopstr-escrow-competency-test.git
@@ -20,18 +20,7 @@ This repository contains the implementation for the Shopstr Escrow Competency Te
    ```sh
    npm install
    ```
-3. Set up environment variables (create a `.env` file based on `.env.example`):
-   ```sh
-   cp .env.example .env
-   ```
-   Update the necessary environment values.
-
-## Usage
-To start the project, run:
-```sh
-npm start
-```
-If using a development server:
+3. Using a development server, run the project:
 ```sh
 npm run dev
 ```
