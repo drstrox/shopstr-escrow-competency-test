@@ -1,26 +1,25 @@
-# Shopstr Escrow Competency Test
+# Secure Payment Escrow System
 
 ## Overview
-This repository contains the implementation for the Shopstr Escrow Competency Test. The project is designed to demonstrate escrow-based transactions and ensure secure financial exchanges between buyers and sellers.
+This repository contains the implementation for the Shopstr Escrow Competency Test. The project that combines multiple technologies, including Nostr (a decentralized messaging protocol), Cashu (a Chaumian ecash system), and Bitcoin Lightning Network invoices. 
 
 ## Features
 - Secure escrow transactions
-- Smart contract integration (if applicable)
-- User authentication & role management
+- Send and receive gift-wrapped Nostr messages
+- Can create and spend a P2PK-locked Cashu token
 - Payment processing
-- Automated dispute resolution
+- Create and spend from a HODL invoice
 
 ## Requirements
 Ensure you have the following installed before running the project:
 - Node.js
 - npm/yarn
-- Solidity (if dealing with smart contracts)
 - PostgreSQL/MySQL (if applicable)
 
 ## Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/YOUR_USERNAME/shopstr-escrow-competency-test.git
+   git clone https://github.com/drstrox/shopstr-escrow-competency-test.git
    cd shopstr-escrow-competency-test
    ```
 2. Install dependencies:
@@ -42,10 +41,4 @@ If using a development server:
 ```sh
 npm run dev
 ```
-
-## Contributing
-Feel free to open issues or submit pull requests if you'd like to contribute.
-
-## License
-This project is licensed under the MIT License.
 
