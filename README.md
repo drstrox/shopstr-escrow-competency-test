@@ -10,12 +10,6 @@ This repository contains the implementation for the Shopstr Escrow Competency Te
 - Payment processing
 - Create and spend from a HODL invoice
 
-## Requirements
-Ensure you have the following installed before running the project:
-- Node.js
-- npm/yarn
-- PostgreSQL/MySQL (if applicable)
-
 ## Installation
 1. Clone this repository:
    ```sh
