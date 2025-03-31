@@ -21,7 +21,7 @@ This repository contains the implementation for the Shopstr Escrow Competency Te
    npm install
    ```
 3. Using a development server, run the project:
-```sh
-npm run dev
-```
+   ```sh
+   npm run dev
+   ```
 
